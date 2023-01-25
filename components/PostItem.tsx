@@ -52,7 +52,7 @@ const PostItem = ({ post }: PostItemProps) => {
       </Typography>
       <Typography sx={{ mb: "0.5rem" }}>{post.body}</Typography>
 
-      {comments.length > 0 && !isLoading && (
+      {!isLoading && comments.length > 0 && (
         <Box
           sx={{ display: "flex", cursor: "pointer" }}
           onClick={handleToggleComments}

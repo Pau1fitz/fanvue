@@ -15,10 +15,10 @@ export interface Comment {
   body: string;
 }
 
-type Data = {
+interface Data {
   posts?: Post;
   message?: string;
-};
+}
 
 export default async function handler(
   req: NextApiRequest,

@@ -8,10 +8,10 @@ export interface Photo {
   thumbnailUrl: string;
 }
 
-type Data = {
+interface Data {
   photos?: Photo;
   message?: string;
-};
+}
 
 export default async function handler(
   req: NextApiRequest,
