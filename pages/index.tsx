@@ -7,7 +7,18 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title></title>
+        <title>Fanvue Challenge</title>
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="https://www.fanvue.com/favicon.ico"
+        />
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width"
+          key="viewport"
+        />
+        <meta name="description" content="Fanvue Homepage" key="description" />
       </Head>
       <main>
         <Box textAlign={"center"} my={8}>
