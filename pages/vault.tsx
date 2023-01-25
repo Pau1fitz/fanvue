@@ -16,7 +16,11 @@ const Vault: NextPage<VaultProps> = ({ photoFeed }: VaultProps) => {
     <main>
       <Head>
         <title>Fanvue Challenge</title>
-        <meta name="description" content="Fanvue Feed Page" key="description" />
+        <meta
+          name="description"
+          content="Fanvue Vault Page"
+          key="description"
+        />
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
