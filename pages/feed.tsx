@@ -21,6 +21,9 @@ const Feed: NextPage<FeedProps> = ({ feed }: FeedProps) => {
           content="initial-scale=1.0, width=device-width"
           key="viewport"
         />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="Fanvue" />
+        <meta property="og:type" content="website" />
       </Head>
       <Grid
         sx={{
